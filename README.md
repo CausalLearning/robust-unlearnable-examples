@@ -7,6 +7,7 @@ This is the official repository for ICLR 2022 paper ["Robust Unlearnable Example
 - Python 3.8
 - PyTorch 1.8.1
 - Torchvision 0.9.1
+- OpenCV 4.5.5
 
 #### Install dependencies using pip
 
@@ -20,6 +21,7 @@ It is recommended to create your experiment environment with [Anaconda3](https:/
 
 ```shell
 conda install pytorch=1.8.1 torchvision=0.9.1 cudatoolkit=10.2 -c pytorch
+conda install -c conda-forge opencv=4.5.5
 ```
 
 ## Quick Start
